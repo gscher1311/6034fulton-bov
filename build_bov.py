@@ -425,7 +425,7 @@ RENT_COMPS = [
 # Expense line items — (label, current_value, note_number)
 # Max 12 items. Taxes calculated dynamically from price.
 expense_lines = [
-    ("Real Estate Taxes", 14173, 1),
+    ("Real Estate Taxes", 36855, 1),
     ("Insurance", 12014, 2),
     ("Water / Sewer", 6400, 3),
     ("Trash", 3600, 0),
@@ -441,7 +441,7 @@ expense_lines = [
 
 # Operating Statement Notes
 OS_NOTES = {
-    1: "Property Taxes: Placeholder at current assessed value. Will reassess at sale price per Prop 13.",
+    1: "Property Taxes: Buyer Year 1 tax at list price ($3,150,000 x 1.17%). Reassesses at close per Prop 13.",
     2: "Insurance: (12 units x $200) + (9,614 SF x $1.00/SF) = $12,014.",
     3: "Water/Sewer: 16 BD x $400 = $6,400. No pool, no laundry add-ons.",
     4: "Gas: Owner pays hot water via central boiler only. Tenants individually metered.",
